@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_light"
+    tools:context=".AdminCategoryActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/ic_back" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:fontFamily="@font/brandon_grotesque_black"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"
+            android:textAllCaps="true"/>
+
+        <!-- Kids category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_kids"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/yellow">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Kids"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_kids" />
+
+        </RelativeLayout>
+
+
+        <!-- Shoes category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_shoes"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/pink">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_shoes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Shoes"
+                android:textColor="@color/white_light"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textColor="@color/white_light"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <!-- Women category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_women"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/yellow_lemon">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Women"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_women" />
+
+        </RelativeLayout>
+
+
+        <!-- Men category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_men"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/red_light">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_men" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Men"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <!-- Jewelry category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_jewelry"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/blue_turquoise">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Jewelry"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_jewelry" />
+
+        </RelativeLayout>
+
+
+        <!-- Bags category -->
+        <RelativeLayout
+            android:id="@+id/relative_category_bags"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_desgin1"
+            android:backgroundTint="@color/purple_200">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/category_bag" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="25dp"
+                android:text="Bags"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000"
+                android:fontFamily="@font/baloo_regular"
+                android:padding="20dp"
+                android:text="Expand All  ->"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

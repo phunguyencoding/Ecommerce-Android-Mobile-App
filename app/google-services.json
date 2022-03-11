@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "861911972106",
+    "project_id": "cosc2657-a3-team15",
+    "storage_bucket": "cosc2657-a3-team15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861911972106:android:95a3824e35c079b90722f3",
+        "android_client_info": {
+          "package_name": "group15.finalassignment.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861911972106-ovth8fdp5dqpujnh4dh5h48hd0ae4ud6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8EPIkpm6FgOBAalAiFDwqju9wIwvTz14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861911972106-ovth8fdp5dqpujnh4dh5h48hd0ae4ud6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

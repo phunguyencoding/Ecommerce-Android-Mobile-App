@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="110dp"
+    android:orientation="vertical"
+    android:padding="60dp">
+    tools:context=".OtpActivity">
+
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Your OTP" />
+
+    <TextView
+        android:id="@+id/otpAgainTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP Again!" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fece2f"
+        android:text="Verify Now" />
+
+    <ProgressBar
+        android:id="@+id/verifyProgressBar"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>
+

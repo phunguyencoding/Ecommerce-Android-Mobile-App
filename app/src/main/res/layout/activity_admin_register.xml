@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/image_seller"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/admin_register_background"
+        android:scaleType="centerCrop"/>
+    
+    <TextView
+        android:id="@+id/title_admin_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Registration Form"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/image_seller"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/admin_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title_admin_register"
+        android:hint="Full Name..."
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/admin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/admin_full_name"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/admin_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/admin_password"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Phone Number..."
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/admin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/admin_phone_number"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Email Address..."
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/admin_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/admin_email"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Shop Address..."
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/admin_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/admin_address"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="15dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/input_desgin1"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

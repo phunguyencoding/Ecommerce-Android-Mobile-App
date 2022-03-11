@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin1"
+    tools:context=".AdminLoginActivity">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/login_applogo"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="0dp"-->
+    <!--        android:src="@drawable/applogo13" />-->
+
+
+    <TextView
+        android:id="@+id/textview_admin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Login as Admin/Seller"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+        android:id="@+id/login_admin_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_admin_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_desgin1"
+        android:hint="Admin Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="19sp" />
+
+
+    <EditText
+        android:id="@+id/login_admin_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_admin_name_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_desgin1"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_admin_password_input"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/admin_register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:text="Not have Admin/Seller Account yet? Register here"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".View.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/home_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0" >
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/profileBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_user_profile" />
+
+        <ImageButton
+            android:id="@+id/cartBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_cart" />
+
+        <ImageButton
+            android:id="@+id/searchBtn"
+            android:layout_width="38dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_search_product"
+            app:layout_constraintBottom_toBottomOf="@+id/search_field_main"
+            app:layout_constraintStart_toEndOf="@+id/search_field_main"
+            app:layout_constraintTop_toTopOf="@+id/search_field_main"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/search_field_main"
+            android:layout_width="216dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/heading_label"
+            android:layout_alignStart="@+id/heading_label"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/input_desgin1"
+            android:ems="14"
+            android:fontFamily="@font/nunito_semibold"
+            android:hint="Bitis Hunter"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="#999999"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/cartBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

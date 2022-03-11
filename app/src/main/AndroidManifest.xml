@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group15.finalassignment.ecommerce">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RMIT Store"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECommerce">
+        <activity
+            android:name=".View.OrderDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.OnBoardingScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.SearchProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.OtpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true" /> <!-- <activity android:name=".View.WelcomeActivity"/> -->
+        <activity
+            android:name=".View.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.WelcomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".View.service.NotificationService" />
+        <receiver
+            android:name=".View.service.RestartNotificationService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
