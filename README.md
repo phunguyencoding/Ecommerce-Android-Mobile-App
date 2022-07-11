@@ -52,18 +52,18 @@ Student Names & IDs
 ![](demo-images/p6.jpg)<br />
 ![](demo-images/p7.jpg)<br />
 ![](demo-images/p8.jpg)<br />
-![](demo-images/p9.jpg)
-![](demo-images/p10.jpg)
-![](demo-images/p11.jpg)
-![](demo-images/p12.jpg)
-![](demo-images/p13.jpg)
-![](demo-images/p14.jpg)
-![](demo-images/p15.jpg)
-![](demo-images/p16.jpg)
-![](demo-images/p17.jpg)
-![](demo-images/p18.jpg)
-![](demo-images/p19.jpg)
-![](demo-images/p20.jpg)
-![](demo-images/p21.jpg)
+![](demo-images/p9.jpg)<br />
+![](demo-images/p10.jpg)<br />
+![](demo-images/p11.jpg)<br />
+![](demo-images/p12.jpg)<br />
+![](demo-images/p13.jpg)<br />
+![](demo-images/p14.jpg)<br />
+![](demo-images/p15.jpg)<br />
+![](demo-images/p16.jpg)<br />
+![](demo-images/p17.jpg)<br />
+![](demo-images/p18.jpg)<br />
+![](demo-images/p19.jpg)<br />
+![](demo-images/p20.jpg)<br />
+![](demo-images/p21.jpg)<br />
 ![](demo-images/p22.jpg)
 
