@@ -1,1 +1,1 @@
-# A folder includes demo images.
+# A Demo Folder.
