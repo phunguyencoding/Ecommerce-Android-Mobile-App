@@ -51,3 +51,5 @@ Student Names & IDs: Nguyen Quoc Minh - s3758994
 --------------------------------------------
 + Reference:
 	1./ StackOverflow
+
+![](demo-images/p1.jpg)
