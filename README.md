@@ -36,12 +36,34 @@ Student Names & IDs
 6. Glide (https://github.com/bumptech/glide): Load image from an url
 --------------------------------------------
 # Special action requirement:
-1. SHA-1: Add your SHA-1 to Firebase to use Register by OTP Feature.
+- SHA-1: Add your SHA-1 to Firebase to use Register by OTP Feature.
 --------------------------------------------
 # Bugs:
-1. UI is not designed perfectly due to the limited time.  
+- UI is not designed perfectly due to the limited time.  
 --------------------------------------------
 # Reference:
-1. StackOverflow
+- StackOverflow
 
 ![](demo-images/p1.jpg)
+![](demo-images/p2.jpg)
+![](demo-images/p3.jpg)
+![](demo-images/p4.jpg)
+![](demo-images/p5.jpg)
+![](demo-images/p6.jpg)
+![](demo-images/p7.jpg)
+![](demo-images/p8.jpg)
+![](demo-images/p9.jpg)
+![](demo-images/p10.jpg)
+![](demo-images/p11.jpg)
+![](demo-images/p12.jpg)
+![](demo-images/p13.jpg)
+![](demo-images/p14.jpg)
+![](demo-images/p15.jpg)
+![](demo-images/p16.jpg)
+![](demo-images/p17.jpg)
+![](demo-images/p18.jpg)
+![](demo-images/p19.jpg)
+![](demo-images/p20.jpg)
+![](demo-images/p21.jpg)
+![](demo-images/p22.jpg)
+
