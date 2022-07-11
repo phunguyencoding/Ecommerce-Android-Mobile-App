@@ -11,24 +11,21 @@ Student Names & IDs:
 * Le Ngoc Duy - s3757327: main in charge of UI and Search feature & help other teammates with their tasks.
 * Nguyen Dang Truong Long - s3757333: main in charge of Cart and Order & help other teammates with their tasks.
 * Nguyen Tran Phu - s3811248: main in charge of Authentication (signup/signin) and product Homepage & help other teammates with their tasks.	
-
-+ App Name: E-Commerce app - RMIT Store
-
 --------------------------------------------
-+ Functionality of the App:
-	1./ Login/Register/Logout:
-		- The user can continue to use the app even when not logged in
- 		- The user can register an account to place order.
-		- When register, the user will be asked to verify their phone number via otp
-		- The user can register or login by tapping on the profile icon on the home page or by clicking on add to cart or 
-		  order now button in product detail while signed out
-	2./ Homepage: Display popular product sorted by their rating, new product, all category, option to view all product, option to search all product, view user profile, view user cart
-	3./ View all product with search by product name and filter by category
-	4./ View detailed information about a product when click on the product card
-	5./ User can place order of a product or add product to user's cart
-	6./ Cart: User can add product to cart by quantity, view detailed cart information, remove items from cart
-	7./ View user's profile and user's order history with order detail
-	8./ Notification: User is notify when the price of the item in the user cart reduced
+# Functionality of the App:
+* 1. Login/Register/Logout:
+- The user can continue to use the app even when not logged in
+- The user can register an account to place order.
+- When register, the user will be asked to verify their phone number via otp
+- The user can register or login by tapping on the profile icon on the home page or by clicking on add to cart or 
+  order now button in product detail while signed out
+* 2. Homepage: Display popular product sorted by their rating, new product, all category, option to view all product, option to search all product, view user profile, view user cart
+* 3. View all product with search by product name and filter by category
+* 4. View detailed information about a product when click on the product card
+* 5. User can place order of a product or add product to user's cart
+* 6. Cart: User can add product to cart by quantity, view detailed cart information, remove items from cart
+* 7. View user's profile and user's order history with order detail
+* 8. Notification: User is notify when the price of the item in the user cart reduced
 	
 
 --------------------------------------------
