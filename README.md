@@ -1,18 +1,17 @@
-Course: COSC2657 - Android Development
-Group: 15 
-Student Names & IDs: Nguyen Quoc Minh - s3758994
-		     Le Ngoc Duy - s3757327
-		     Nguyen Dang Truong Long - s3757333
-                     Nguyen Tran Phu - s3811248		   
+Course: COSC2657 - Android Development - Group 15
+App Name: E-Commerce app - RMIT Store
+Student Names & IDs:
+* Nguyen Tran Phu - s3811248
+* Nguyen Quoc Minh - s3758994
+* Le Ngoc Duy - s3757327
+* Nguyen Dang Truong Long - s3757333   
 
---------------------------------------------
-+ Work Distribution:
-	Nguyen Quoc Minh - s3758994: main in charge of UI & help other teammates with their tasks.
-	Le Ngoc Duy - s3757327: main in charge of UI and Search feature & help other teammates with their tasks.
-	Nguyen Dang Truong Long - s3757333: main in charge of Cart and Order & help other teammates with their tasks.
-	Nguyen Tran Phu - s3811248: main in charge of Authentication (signup/signin) and product Homepage & help other teammates with their tasks.	
+## Work Distribution:
+* Nguyen Quoc Minh - s3758994: main in charge of UI & help other teammates with their tasks.
+* Le Ngoc Duy - s3757327: main in charge of UI and Search feature & help other teammates with their tasks.
+* Nguyen Dang Truong Long - s3757333: main in charge of Cart and Order & help other teammates with their tasks.
+* Nguyen Tran Phu - s3811248: main in charge of Authentication (signup/signin) and product Homepage & help other teammates with their tasks.	
 
---------------------------------------------
 + App Name: E-Commerce app - RMIT Store
 
 --------------------------------------------
