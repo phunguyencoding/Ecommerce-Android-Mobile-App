@@ -1,5 +1,5 @@
-Course: COSC2657 - Android Development - Group 15
-App Name: E-Commerce app - RMIT Store
+Course: COSC2657 - Android Development - Group 15 <br />
+App Name: E-Commerce app - RMIT Store <br />
 Student Names & IDs
 * Nguyen Tran Phu - s3811248
 * Nguyen Quoc Minh - s3758994
