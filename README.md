@@ -26,26 +26,22 @@ Student Names & IDs:
 6. Cart: User can add product to cart by quantity, view detailed cart information, remove items from cart
 7. View user's profile and user's order history with order detail
 8. Notification: User is notify when the price of the item in the user cart reduced
-	
-
 --------------------------------------------
-+ Technolgy used:
-	1./ Firestore: to store the database of user information, products and categories of the shop.
-	2./ Firebase Auth: to verify user phone number exist during register and to register/login user by email and password
-	3./ Android Emulator: 1080x1920p 420dpi Pixel 2
-	4./ Android Service: Run notification that notify the user when one of the item in their cart price is reduced
-	5./ Android Broadcast-Receiver: Keep notification running when the user close their app 
-	6./ Glide (https://github.com/bumptech/glide): Load image from an url
-
+# Technolgy used:
+1./ Firestore: to store the database of user information, products and categories of the shop.
+2./ Firebase Auth: to verify user phone number exist during register and to register/login user by email and password
+3./ Android Emulator: 1080x1920p 420dpi Pixel 2
+4./ Android Service: Run notification that notify the user when one of the item in their cart price is reduced
+5./ Android Broadcast-Receiver: Keep notification running when the user close their app 
+6./ Glide (https://github.com/bumptech/glide): Load image from an url
 --------------------------------------------
-+ Special action requirement:
-	1. SHA-1: Add your SHA-1 to Firebase to use Register by OTP Feature.
-
+# Special action requirement:
+1. SHA-1: Add your SHA-1 to Firebase to use Register by OTP Feature.
 --------------------------------------------
-+ Bugs:
-	1./ UI is not designed perfectly due to the limited time.  
+# Bugs:
+1./ UI is not designed perfectly due to the limited time.  
 --------------------------------------------
-+ Reference:
-	1./ StackOverflow
+# Reference:
+1./ StackOverflow
 
 ![](demo-images/p1.jpg)
