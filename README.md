@@ -44,14 +44,14 @@ Student Names & IDs
 # Reference:
 - StackOverflow
 
-![](demo-images/p1.jpg)
-![](demo-images/p2.jpg)
-![](demo-images/p3.jpg)
-![](demo-images/p4.jpg)
-![](demo-images/p5.jpg)
-![](demo-images/p6.jpg)
-![](demo-images/p7.jpg)
-![](demo-images/p8.jpg)
+![](demo-images/p1.jpg)<br />
+![](demo-images/p2.jpg)<br />
+![](demo-images/p3.jpg)<br />
+![](demo-images/p4.jpg)<br />
+![](demo-images/p5.jpg)<br />
+![](demo-images/p6.jpg)<br />
+![](demo-images/p7.jpg)<br />
+![](demo-images/p8.jpg)<br />
 ![](demo-images/p9.jpg)
 ![](demo-images/p10.jpg)
 ![](demo-images/p11.jpg)
